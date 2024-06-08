@@ -64,8 +64,8 @@ def cleaning_dataset(dataset):
     dataset.rename(columns={
         'CAMPAGNE': 'year_of_inventory', # CAMPAGNE: Annual inventory campaign (field operations); Year of field operations for an annual national forest inventory campaign;
         'IDP': 'plot_identifier', # IDP: External plot identifier; Identifier used when exporting plot data outside of IGN;
-        'XL': 'longitude', # XL: Longitude; Geographic coordinate of the plot center;
-        'YL': 'latitude', # YL: Latitude; Geographic coordinate of the plot center;
+        'XL': 'longitude', # XL: Longitude Lambert 93; Geographic coordinate of the plot center;
+        'YL': 'latitude', # YL: Latitude Lambert 93; Geographic coordinate of the plot center;
         'DEP': 'department_number', # DEP: Department; Administrative department number (similar to a license plate number);
         'Libellé DEP': 'derpartment_name',
         'TPESPAR1': 'species_code', # TPESPAR1: Main planted species; Species planted in a monospecific plantation, or the majority species planted in a mixed plantation.
@@ -126,7 +126,7 @@ def main():
     dataset = pd.read_csv(f'{directory}/dataset/PLACETTE.csv', sep=';')
 
     # explore the dataset
-    # explore_dataset(dataset)
+    explore_dataset(dataset)
 
     # Cleaning the dataset, renaming the columns, and dropping the unnecessary columns
     dataset = cleaning_dataset(dataset)
