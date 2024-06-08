@@ -1,0 +1,802 @@
+﻿// *************************************************
+// Export des données brutes du 2024-06-08
+
+// Les données et leur documentation sont la propriété intellectuelle de l’IGN. Elles peuvent être téléchargées gratuitement et être réutilisées sans versement de redevance selon la licence Ouverte / Open Licence Etalab Version 2.0.
+// Avant tout téléchargement et utilisation de ses données, l’IGN encourage les utilisateurs à prendre connaissance du contenu de cette licence et à le respecter : https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf
+// Les utilisateurs des données de l’inventaire forestier national ont l’obligation de citer comme source des données : "IGN – Inventaire forestier national français, Données brutes, Campagnes annuelles 2005 et suivantes, https://inventaire-forestier.ign.fr/dataIFN/, site consulté le XX/XX/20XX" dans tous les travaux, articles, publications, etc. résultant de l’utilisation de ces données.
+
+// *************************************************
+// Critères de requête
+// Campagnes : De 2018 à 2022
+// Critères de filtrage : 
+// DEP = 01
+// DEP = 02
+// DEP = 03
+// DEP = 04
+// DEP = 05
+// DEP = 06
+// DEP = 07
+// DEP = 08
+// DEP = 09
+// DEP = 10
+// DEP = 11
+// DEP = 12
+// DEP = 13
+// DEP = 14
+// DEP = 15
+// DEP = 16
+// DEP = 17
+// DEP = 18
+// DEP = 19
+// DEP = 21
+// DEP = 22
+// DEP = 23
+// DEP = 24
+// DEP = 25
+// DEP = 26
+// DEP = 27
+// DEP = 28
+// DEP = 29
+// DEP = 2A
+// DEP = 2B
+// DEP = 30
+// DEP = 31
+// DEP = 32
+// DEP = 33
+// DEP = 34
+// DEP = 35
+// DEP = 36
+// DEP = 37
+// DEP = 38
+// DEP = 39
+// DEP = 40
+// DEP = 41
+// DEP = 42
+// DEP = 43
+// DEP = 44
+// DEP = 45
+// DEP = 46
+// DEP = 47
+// DEP = 48
+// DEP = 49
+// DEP = 50
+// DEP = 51
+// DEP = 52
+// DEP = 53
+// DEP = 54
+// DEP = 55
+// DEP = 56
+// DEP = 57
+// DEP = 58
+// DEP = 59
+// DEP = 60
+// DEP = 61
+// DEP = 62
+// DEP = 63
+// DEP = 64
+// DEP = 65
+// DEP = 66
+// DEP = 67
+// DEP = 68
+// DEP = 69
+// DEP = 70
+// DEP = 71
+// DEP = 72
+// DEP = 73
+// DEP = 74
+// DEP = 75
+// DEP = 76
+// DEP = 77
+// DEP = 78
+// DEP = 79
+// DEP = 80
+// DEP = 81
+// DEP = 82
+// DEP = 83
+// DEP = 84
+// DEP = 85
+// DEP = 86
+// DEP = 87
+// DEP = 88
+// DEP = 89
+// DEP = 90
+// DEP = 91
+// DEP = 92
+// DEP = 93
+// DEP = 94
+// DEP = 95
+// TPESPAR1 = 02
+// TPESPAR1 = 03
+// TPESPAR1 = 04
+// TPESPAR1 = 05
+// TPESPAR1 = 06
+// TPESPAR1 = 07
+// TPESPAR1 = 08P
+// TPESPAR1 = 08S
+// TPESPAR1 = 09
+// TPESPAR1 = 10
+// TPESPAR1 = 11
+// TPESPAR1 = 12P
+// TPESPAR1 = 12V
+// TPESPAR1 = 13C
+// TPESPAR1 = 13G
+// TPESPAR1 = 13B
+// TPESPAR1 = 14
+// TPESPAR1 = 15P
+// TPESPAR1 = 15S
+// TPESPAR1 = 16
+// TPESPAR1 = 17C
+// TPESPAR1 = 17F
+// TPESPAR1 = 17O
+// TPESPAR1 = 18C
+// TPESPAR1 = 18D
+// TPESPAR1 = 18M
+// TPESPAR1 = 19
+// TPESPAR1 = 20P
+// TPESPAR1 = 20G
+// TPESPAR1 = 21C
+// TPESPAR1 = 21M
+// TPESPAR1 = 21O
+// TPESPAR1 = 22M
+// TPESPAR1 = 22C
+// TPESPAR1 = 22G
+// TPESPAR1 = 22S
+// TPESPAR1 = 23F
+// TPESPAR1 = 23PA
+// TPESPAR1 = 23PC
+// TPESPAR1 = 23PM
+// TPESPAR1 = 23A
+// TPESPAR1 = 23PD
+// TPESPAR1 = 23AB
+// TPESPAR1 = 23SO
+// TPESPAR1 = 23C
+// TPESPAR1 = 23AF
+// TPESPAR1 = 23AM
+// TPESPAR1 = 23PF
+// TPESPAR1 = 24
+// TPESPAR1 = 25B
+// TPESPAR1 = 25M
+// TPESPAR1 = 25C
+// TPESPAR1 = 25FD
+// TPESPAR1 = 25FR
+// TPESPAR1 = 25D
+// TPESPAR1 = 25P
+// TPESPAR1 = 25E5
+// TPESPAR1 = 25XR
+// TPESPAR1 = 25E3
+// TPESPAR1 = 25V
+// TPESPAR1 = 25R
+// TPESPAR1 = 26E
+// TPESPAR1 = 26OC
+// TPESPAR1 = 26OR
+// TPESPAR1 = 27C
+// TPESPAR1 = 27N
+// TPESPAR1 = 28
+// TPESPAR1 = 29MI
+// TPESPAR1 = 29EN
+// TPESPAR1 = 29MA
+// TPESPAR1 = 29AI
+// TPESPAR1 = 29CT
+// TPESPAR1 = 29CA
+// TPESPAR1 = 29PL
+// TPESPAR1 = 29FA
+// TPESPAR1 = 29PV
+// TPESPAR1 = 29CE
+// TPESPAR1 = 29CM
+// TPESPAR1 = 29TA
+// TPESPAR1 = 29TT
+// TPESPAR1 = 29LI
+// TPESPAR1 = 29FI
+// TPESPAR1 = 29AF
+// TPESPAR1 = 31
+// TPESPAR1 = 32
+// TPESPAR1 = 33B
+// TPESPAR1 = 33G
+// TPESPAR1 = 33N
+// TPESPAR1 = 34
+// TPESPAR1 = 36
+// TPESPAR1 = 37
+// TPESPAR1 = 38AU
+// TPESPAR1 = 38AL
+// TPESPAR1 = 39
+// TPESPAR1 = 40
+// TPESPAR1 = 41
+// TPESPAR1 = 42
+// TPESPAR1 = 51
+// TPESPAR1 = 52
+// TPESPAR1 = 53CO
+// TPESPAR1 = 53CA
+// TPESPAR1 = 53S
+// TPESPAR1 = 54
+// TPESPAR1 = 55
+// TPESPAR1 = 56
+// TPESPAR1 = 57A
+// TPESPAR1 = 57B
+// TPESPAR1 = 58
+// TPESPAR1 = 59
+// TPESPAR1 = 60
+// TPESPAR1 = 61
+// TPESPAR1 = 62
+// TPESPAR1 = 63
+// TPESPAR1 = 64
+// TPESPAR1 = 65
+// TPESPAR1 = 66
+// TPESPAR1 = 67
+// TPESPAR1 = 68CM
+// TPESPAR1 = 68CB
+// TPESPAR1 = 68CH
+// TPESPAR1 = 68PM
+// TPESPAR1 = 68CA
+// TPESPAR1 = 68EO
+// TPESPAR1 = 68TG
+// TPESPAR1 = 68CL
+// TPESPAR1 = 68SC
+// TPESPAR1 = 68SI
+// TPESPAR1 = 68PC
+// TPESPAR1 = 68SV
+// TPESPAR1 = 68SG
+// TPESPAR1 = 68CC
+// TPESPAR1 = 68TH
+// TPESPAR1 = 68CJ
+// TPESPAR1 = 68CE
+// TPESPAR1 = 69
+// TPESPAR1 = 70SE
+// TPESPAR1 = 70SC
+// TPESPAR1 = 70SB
+// TPESPAR1 = 71
+// TPESPAR1 = 72V
+// TPESPAR1 = 72N
+// TPESPAR1 = 73
+// TPESPAR1 = 74J
+// TPESPAR1 = 74H
+// TPESPAR1 = 76
+// TPESPAR1 = 77
+// TPESPAR1 = 20X
+// TPESPAR1 = 29PT
+// TPESPAR1 = 29TX
+// TPESPAR1 = 68TC
+// TPESPAR1 = 68TS
+// TPESPAR1 = 49IA
+// TPESPAR1 = 49MB
+// TPESPAR1 = 49MC
+// TPESPAR1 = 49MN
+// TPESPAR1 = 49OO
+// TPESPAR1 = 49VV
+// TPESPAR1 = 23SF
+// TPESPAR1 = 23SS
+// TPESPAR1 = 49AA
+// TPESPAR1 = 49AE
+// TPESPAR1 = 49AM
+// TPESPAR1 = 49BO
+// TPESPAR1 = 49BS
+// TPESPAR1 = 49C
+// TPESPAR1 = 49CA
+// TPESPAR1 = 49CM
+// TPESPAR1 = 49CN
+// TPESPAR1 = 49CS
+// TPESPAR1 = 49FL
+// TPESPAR1 = 49KK
+// TPESPAR1 = 49LN
+// TPESPAR1 = 49OB
+// TPESPAR1 = 49PA
+// TPESPAR1 = 49PC
+// TPESPAR1 = 49PM
+// TPESPAR1 = 49PN
+// TPESPAR1 = 49RT
+// TPESPAR1 = 49SN
+// TPESPAR1 = 49TA
+// TPESPAR1 = 49TF
+// TPESPAR1 = 49TG
+// TPESPAR1 = 69JC
+// TPESPAR1 = 69JO
+// TPESPAR1 = 49EA
+// TPESPAR1 = 49PS
+// TPESPAR1 = 49RA
+// TPESPAR1 = 49RP
+// TPESPAR1 = 49RC
+// TPESPAR1 = 49EV
+// TPESPAR1 = 49FA
+// TPESPAR1 = 49PB
+// TPESPAR1 = 49PL
+// TPESPAR1 = 49PT
+// TPESPAR1 = 49SR
+
+// Données demandées : 
+CAMPAGNE;IDP;GEOM93;DEP;TPESPAR1;
+
+
+// Définition des données : 
+// Code;Libellé;Définition
+CAMPAGNE;Campagne annuelle d'inventaire (opérations terrain);Année des opérations terrain pour une campagne annuelle d'inventaire forestier national;
+DEP;Département;Numéro minéralogique de département administratif;
+GEOM93;Géométrie (en projection Lambert 93);Géométrie dans le plan (en projection Lambert 93);
+IDP;Identifiant externe de placette;Identifiant utilisé dès que l'on exporte des données de placette hors IGN;
+TPESPAR1;Espèce plantée principale;Espèce plantée dans une plantation monospécifique, ou espèce majoritaire plantée dans une plantation mélangée.;
+
+
+// Définition des unités : 
+// Donnée;Unité;Campagnes;Type;Libellé;Définition
+DEP;DP;2005 - ;Qualitatif;Departement;Departement (annee de reference 2002);
+IDP;CODE;2005 - ;Texte;Code;Unité de codification non documentée;
+TPESPAR1;ESPAR0;2008 - 2008;Qualitatif;Espèce arborée;Espèce botanique d'arbre ou groupe d'espèces détaillé;
+TPESPAR1;ESPAR1;2009 - ;Qualitatif;Espèce arborée;Espèce botanique d'arbre ou groupe d'espèces détaillé;
+
+
+// Définition des modalités pour chaque unité : 
+// Unité;Code;Libellé;Définition
+DP;01;Ain;Ain;
+DP;02;Aisne;Aisne;
+DP;03;Allier;Allier;
+DP;04;Alpes-de-Haute-Provence;Alpes-de-Haute-Provence;
+DP;05;Hautes-Alpes;Hautes-Alpes;
+DP;06;Alpes-Maritimes;Alpes-Maritimes;
+DP;07;Ardèche;Ardèche;
+DP;08;Ardennes;Ardennes;
+DP;09;Ariège;Ariège;
+DP;10;Aube;Aube;
+DP;11;Aude;Aude;
+DP;12;Aveyron;Aveyron;
+DP;13;Bouches-du-Rhône;Bouches-du-Rhône;
+DP;14;Calvados;Calvados;
+DP;15;Cantal;Cantal;
+DP;16;Charente;Charente;
+DP;17;Charente-Maritime;Charente-Maritime;
+DP;18;Cher;Cher;
+DP;19;Corrèze;Corrèze;
+DP;21;Côte-d'Or;Côte-d'Or;
+DP;22;Côtes-d'Armor;Côtes-d'Armor;
+DP;23;Creuse;Creuse;
+DP;24;Dordogne;Dordogne;
+DP;25;Doubs;Doubs;
+DP;26;Drôme;Drôme;
+DP;27;Eure;Eure;
+DP;28;Eure-et-Loir;Eure-et-Loir;
+DP;29;Finistère;Finistère;
+DP;2A;Corse-du-Sud;Corse-du-Sud;
+DP;2B;Haute-Corse;Haute-Corse;
+DP;30;Gard;Gard;
+DP;31;Haute-Garonne;Haute-Garonne;
+DP;32;Gers;Gers;
+DP;33;Gironde;Gironde;
+DP;34;Hérault;Hérault;
+DP;35;Ille-et-Vilaine;Ille-et-Vilaine;
+DP;36;Indre;Indre;
+DP;37;Indre-et-Loire;Indre-et-Loire;
+DP;38;Isère;Isère;
+DP;39;Jura;Jura;
+DP;40;Landes;Landes;
+DP;41;Loir-et-Cher;Loir-et-Cher;
+DP;42;Loire;Loire;
+DP;43;Haute-Loire;Haute-Loire;
+DP;44;Loire-Atlantique;Loire-Atlantique;
+DP;45;Loiret;Loiret;
+DP;46;Lot;Lot;
+DP;47;Lot-et-Garonne;Lot-et-Garonne;
+DP;48;Lozère;Lozère;
+DP;49;Maine-et-Loire;Maine-et-Loire;
+DP;50;Manche;Manche;
+DP;51;Marne;Marne;
+DP;52;Haute-Marne;Haute-Marne;
+DP;53;Mayenne;Mayenne;
+DP;54;Meurthe-et-Moselle;Meurthe-et-Moselle;
+DP;55;Meuse;Meuse;
+DP;56;Morbihan;Morbihan;
+DP;57;Moselle;Moselle;
+DP;58;Nièvre;Nièvre;
+DP;59;Nord;Nord;
+DP;60;Oise;Oise;
+DP;61;Orne;Orne;
+DP;62;Pas-de-Calais;Pas-de-Calais;
+DP;63;Puy-de-Dôme;Puy-de-Dôme;
+DP;64;Pyrénées-Atlantiques;Pyrénées-Atlantiques;
+DP;65;Hautes-Pyrénées;Hautes-Pyrénées;
+DP;66;Pyrénées-Orientales;Pyrénées-Orientales;
+DP;67;Bas-Rhin;Bas-Rhin;
+DP;68;Haut-Rhin;Haut-Rhin;
+DP;69;Rhône;Rhône;
+DP;70;Haute-Saône;Haute-Saône;
+DP;71;Saône-et-Loire;Saône-et-Loire;
+DP;72;Sarthe;Sarthe;
+DP;73;Savoie;Savoie;
+DP;74;Haute-Savoie;Haute-Savoie;
+DP;75;Paris;Paris;
+DP;76;Seine-Maritime;Seine-Maritime;
+DP;77;Seine-et-Marne;Seine-et-Marne;
+DP;78;Yvelines;Yvelines;
+DP;79;Deux-Sèvres;Deux-Sèvres;
+DP;80;Somme;Somme;
+DP;81;Tarn;Tarn;
+DP;82;Tarn-et-Garonne;Tarn-et-Garonne;
+DP;83;Var;Var;
+DP;84;Vaucluse;Vaucluse;
+DP;85;Vendée;Vendée;
+DP;86;Vienne;Vienne;
+DP;87;Haute-Vienne;Haute-Vienne;
+DP;88;Vosges;Vosges;
+DP;89;Yonne;Yonne;
+DP;90;Territoire de Belfort;Territoire de Belfort;
+DP;91;Essonne;Essonne;
+DP;92;Hauts-de-Seine;Hauts-de-Seine;
+DP;93;Seine-Saint-Denis;Seine-Saint-Denis;
+DP;94;Val-de-Marne;Val-de-Marne;
+DP;95;Val-d'Oise;Val-d'Oise;
+ESPAR0;02;Chêne pédonculé;-;
+ESPAR0;03;Chêne sessile;-;
+ESPAR0;04;Chêne rouge;-;
+ESPAR0;05;Chêne pubescent;-;
+ESPAR0;06;Chêne vert;-;
+ESPAR0;07;Chêne tauzin;-;
+ESPAR0;08P;Chêne faux-liège;-;
+ESPAR0;08S;Chêne-liège;-;
+ESPAR0;09;Hêtre;-;
+ESPAR0;10;Châtaignier;-;
+ESPAR0;11;Charme;-;
+ESPAR0;12P;Bouleau pubescent;-;
+ESPAR0;12V;Bouleau verruqueux;-;
+ESPAR0;13C;Aulne de Corse;-;
+ESPAR0;13G;Aulne glutineux;-;
+ESPAR0;13B;Aulne blanc;-;
+ESPAR0;14;Robinier faux acacia;-;
+ESPAR0;15P;Érable plane;-;
+ESPAR0;15S;Érable sycomore;-;
+ESPAR0;16;Micocoulier;-;
+ESPAR0;17C;Frêne commun;-;
+ESPAR0;17F;Frêne à fleur;-;
+ESPAR0;17O;Frêne oxyphylle;-;
+ESPAR0;18C;Orme champêtre;-;
+ESPAR0;18D;Orme lisse;-;
+ESPAR0;18M;Orme de montagne;-;
+ESPAR0;19;Peuplier cultivé;-;
+ESPAR0;20P;Tilleul à petites feuilles;-;
+ESPAR0;20G;Tilleul à grandes feuilles;-;
+ESPAR0;21C;Érable champêtre;-;
+ESPAR0;21M;Érable de Montpellier;-;
+ESPAR0;21O;Érable à feuilles d'obier;-;
+ESPAR0;22M;Merisier;-;
+ESPAR0;22C;Cerisier;-;
+ESPAR0;22G;Cerisier à grappes;-;
+ESPAR0;22S;Cerisier tardif;-;
+ESPAR0;23F;Figuier de Carie;-;
+ESPAR0;23PA;Poirier à feuilles d'amandier;-;
+ESPAR0;23PC;Poirier commun;-;
+ESPAR0;23PM;Pommier sauvage;-;
+ESPAR0;23A;Amandier;-;
+ESPAR0;23PD;Prunier domestique;-;
+ESPAR0;23AB;Alisier blanc;-;
+ESPAR0;23SO;Sorbier des oiseleurs;-;
+ESPAR0;23C;Cormier;-;
+ESPAR0;23AF;Alisier de Fontainebleau;-;
+ESPAR0;23AM;Alisier de Mougeot;-;
+ESPAR0;23PF;Poirier à feuilles en cœur;-;
+ESPAR0;24;Tremble;-;
+ESPAR0;25B;Saule blanc;-;
+ESPAR0;25M;Saule marsault;-;
+ESPAR0;25C;Saule cendré;-;
+ESPAR0;25FD;Saule faux daphné;-;
+ESPAR0;25FR;Saule cassant;-;
+ESPAR0;25D;Saule drapé;-;
+ESPAR0;25P;Saule pédicellé;-;
+ESPAR0;25E5;Saule à cinq étamines;-;
+ESPAR0;25XR;Saule rouge;-;
+ESPAR0;25E3;Saule à trois étamines;-;
+ESPAR0;25V;Saule des vanniers;-;
+ESPAR0;25R;Saule roux;-;
+ESPAR0;26E;Platane à feuilles d'érable;-;
+ESPAR0;26OC;Platane d'Occident;-;
+ESPAR0;26OR;Platane d'Orient;-;
+ESPAR0;27C;Noyer commun;-;
+ESPAR0;27N;Noyer noir;-;
+ESPAR0;28;Olivier d'Europe;-;
+ESPAR0;29MI;Mimosa;-;
+ESPAR0;29EN;Érable negundo;-;
+ESPAR0;29MA;Marronnier d'Inde;-;
+ESPAR0;29AI;Ailante;-;
+ESPAR0;29CT;Catalpa;-;
+ESPAR0;29CA;Caroubier;-;
+ESPAR0;29PL;Plaqueminier;-;
+ESPAR0;29FA;Frêne d'Amérique;-;
+ESPAR0;29PV;Pistachier vrai;-;
+ESPAR0;29CE;Chêne écarlate;-;
+ESPAR0;29CM;Chêne des marais;-;
+ESPAR0;29TA;Tilleul d'Amérique du Nord;-;
+ESPAR0;29TT;Tilleul argenté;-;
+ESPAR0;29LI;Liquidambar;-;
+ESPAR0;29FI;Filao;-;
+ESPAR0;29AF;Autre feuillu exotique;-;
+ESPAR0;31;Noisetier coudrier;-;
+ESPAR0;32;Charme houblon;-;
+ESPAR0;33B;Peuplier blanc;-;
+ESPAR0;33G;Peuplier grisard;-;
+ESPAR0;33N;Peuplier noir;-;
+ESPAR0;34;Chêne chevelu;-;
+ESPAR0;36;Eucalyptus (genre);-;
+ESPAR0;37;Aulne vert;-;
+ESPAR0;38AU;Cytise aubour;-;
+ESPAR0;38AL;Cytise des alpes;-;
+ESPAR0;39;Cornouiller mâle;-;
+ESPAR0;40;Arbousier;-;
+ESPAR0;41;Alisier torminal;-;
+ESPAR0;42;Tulipier de Virginie;-;
+ESPAR0;51;Pin maritime;-;
+ESPAR0;52;Pin sylvestre;-;
+ESPAR0;53CO;Pin laricio de Corse;-;
+ESPAR0;53CA;Pin laricio de Calabre;-;
+ESPAR0;53S;Pin de Salzmann;-;
+ESPAR0;54;Pin noir d'Autriche;-;
+ESPAR0;55;Pin parasol;-;
+ESPAR0;56;Pin Weymouth;-;
+ESPAR0;57A;Pin d'Alep;-;
+ESPAR0;57B;Pin brutia (ou) eldarica;-;
+ESPAR0;58;Pin à crochets;-;
+ESPAR0;59;Pin cembro;-;
+ESPAR0;60;Pin mugo;-;
+ESPAR0;61;Sapin pectiné;-;
+ESPAR0;62;Épicéa commun;-;
+ESPAR0;63;Meleze d'Europe;-;
+ESPAR0;64;Douglas;-;
+ESPAR0;65;Cèdre de l'Atlas;-;
+ESPAR0;66;Cyprès de Provence;-;
+ESPAR0;67;If;-;
+ESPAR0;68CM;Cyprès de Lambert;-;
+ESPAR0;68CB;Cèdre de Chypre;-;
+ESPAR0;68CH;Cèdre de l'Himalaya;-;
+ESPAR0;68PM;Pin de Monterey;-;
+ESPAR0;68CA;Cyprès de l'Arizona;-;
+ESPAR0;68EO;Épicéa omorika;-;
+ESPAR0;68TG;Thuya géant;-;
+ESPAR0;68CL;Cyprès de Lawson;-;
+ESPAR0;68SC;Sapin du Colorado;-;
+ESPAR0;68SI;Sapin de Cilicie;-;
+ESPAR0;68PC;Pin de Murray;-;
+ESPAR0;68SV;Séquoia toujours vert;-;
+ESPAR0;68SG;Séquoia géant;-;
+ESPAR0;68CC;Cyprès chauve;-;
+ESPAR0;68TH;Tsuga heterophylla;-;
+ESPAR0;68CJ;Cryptomère du Japon;-;
+ESPAR0;68CE;Autre conifère exotique;-;
+ESPAR0;69;Genévrier thurifère;-;
+ESPAR0;70SE;Sapin d'Andalousie;-;
+ESPAR0;70SC;Sapin de Céphalonie;-;
+ESPAR0;70SB;Sapin de Turquie;-;
+ESPAR0;71;Sapin de Nordmann;-;
+ESPAR0;72V;Sapin de Vancouver;-;
+ESPAR0;72N;Sapin noble;-;
+ESPAR0;73;Épicéa de Sitka;-;
+ESPAR0;74J;Mélèze du Japon;-;
+ESPAR0;74H;Mélèze hybride;-;
+ESPAR0;76;Cèdre du Liban;-;
+ESPAR0;77;Pin à l'encens et hybrides;-;
+ESPAR0;332G;Peuplier;-;
+ESPAR0;20X;Tilleul de Hollande;-;
+ESPAR0;29PT;Paulownia;-;
+ESPAR0;29TX;Tilleul vert;-;
+ESPAR0;68TC;Thuya du Canada;-;
+ESPAR0;68TS;Tsuga du Canada;-;
+ESPAR0;49IA;Houx;-;
+ESPAR0;49MB;Mûrier blanc;-;
+ESPAR0;49MC;Mûrier de Chine;-;
+ESPAR0;49MN;Mûrier noir;-;
+ESPAR0;49OO;Oranger des Osages;-;
+ESPAR0;49VV;Vernis vrai;-;
+ESPAR0;23SF;Sorbier de Finlande;-;
+ESPAR0;23SS;Sorbier de Suède;-;
+ESPAR0;49AA;Aubépine azérolier;-;
+ESPAR0;49AE;Aubépine épineuse;-;
+ESPAR0;49AM;Aubepine monogyne;-;
+ESPAR0;49BO;Bourdaine;-;
+ESPAR0;49BS;Buis;-;
+ESPAR0;49C;Cognassier;-;
+ESPAR0;49CA;Oranger;-;
+ESPAR0;49CM;Cédratier;-;
+ESPAR0;49CN;Mandarinier;-;
+ESPAR0;49CS;Arbre de Judée;-;
+ESPAR0;49FL;Filaire à feuilles larges;-;
+ESPAR0;49KK;Kaki;-;
+ESPAR0;49LN;Laurier noble;-;
+ESPAR0;49OB;Olivier de Bohême;-;
+ESPAR0;49PA;Abricotier;-;
+ESPAR0;49PC;Prune-cerise;-;
+ESPAR0;49PM;Cerisier de Sainte Lucie;-;
+ESPAR0;49PN;Poirier neigeux;-;
+ESPAR0;49RT;Sumac de Virginie;-;
+ESPAR0;49SN;Sureau noir;-;
+ESPAR0;49TA;Tamaris de France;;
+ESPAR0;49TF;Tamaris d'Afrique;-;
+ESPAR0;49TG;Tamaris de France;-;
+ESPAR0;69JC;Genévrier commun;-;
+ESPAR0;69JO;Genévrier oxycèdre;-;
+ESPAR1;02;Chêne pédonculé;-;
+ESPAR1;03;Chêne sessile;-;
+ESPAR1;04;Chêne rouge;-;
+ESPAR1;05;Chêne pubescent;-;
+ESPAR1;06;Chêne vert;-;
+ESPAR1;07;Chêne tauzin;-;
+ESPAR1;08P;Chêne faux-liège;-;
+ESPAR1;08S;Chêne-liège;-;
+ESPAR1;09;Hêtre;-;
+ESPAR1;10;Châtaignier;-;
+ESPAR1;11;Charme;-;
+ESPAR1;12P;Bouleau pubescent;-;
+ESPAR1;12V;Bouleau verruqueux;-;
+ESPAR1;13C;Aulne de Corse;-;
+ESPAR1;13G;Aulne glutineux;-;
+ESPAR1;13B;Aulne blanc;-;
+ESPAR1;14;Robinier faux acacia;-;
+ESPAR1;15P;Érable plane;-;
+ESPAR1;15S;Érable sycomore;-;
+ESPAR1;16;Micocoulier;-;
+ESPAR1;17C;Frêne commun;-;
+ESPAR1;17F;Frêne à fleur;-;
+ESPAR1;17O;Frêne oxyphylle;-;
+ESPAR1;18C;Orme champêtre;-;
+ESPAR1;18D;Orme lisse;-;
+ESPAR1;18M;Orme de montagne;-;
+ESPAR1;19;Peuplier cultivé;-;
+ESPAR1;20P;Tilleul à petites feuilles;-;
+ESPAR1;20G;Tilleul à grandes feuilles;-;
+ESPAR1;21C;Érable champêtre;-;
+ESPAR1;21M;Érable de Montpellier;-;
+ESPAR1;21O;Érable à feuilles d'obier;-;
+ESPAR1;22M;Merisier;-;
+ESPAR1;22C;Cerisier;-;
+ESPAR1;22G;Cerisier à grappes;-;
+ESPAR1;22S;Cerisier tardif;-;
+ESPAR1;23F;Figuier de Carie;-;
+ESPAR1;23PA;Poirier à feuilles d'amandier;-;
+ESPAR1;23PC;Poirier commun;-;
+ESPAR1;23PM;Pommier sauvage;-;
+ESPAR1;23A;Amandier;-;
+ESPAR1;23PD;Prunier domestique;-;
+ESPAR1;23AB;Alisier blanc;-;
+ESPAR1;23SO;Sorbier des oiseleurs;-;
+ESPAR1;23C;Cormier;-;
+ESPAR1;23AF;Alisier de Fontainebleau;-;
+ESPAR1;23AM;Alisier de Mougeot;-;
+ESPAR1;23PF;Poirier à feuilles en cœur;-;
+ESPAR1;24;Tremble;-;
+ESPAR1;25B;Saule blanc;-;
+ESPAR1;25M;Saule marsault;-;
+ESPAR1;25C;Saule cendré;-;
+ESPAR1;25FD;Saule faux daphné;-;
+ESPAR1;25FR;Saule cassant;-;
+ESPAR1;25D;Saule drapé;-;
+ESPAR1;25P;Saule pédicellé;-;
+ESPAR1;25E5;Saule à cinq étamines;-;
+ESPAR1;25XR;Saule rouge;-;
+ESPAR1;25E3;Saule à trois étamines;-;
+ESPAR1;25V;Saule des vanniers;-;
+ESPAR1;25R;Saule roux;-;
+ESPAR1;26E;Platane à feuilles d'érable;-;
+ESPAR1;26OC;Platane d'Occident;-;
+ESPAR1;26OR;Platane d'Orient;-;
+ESPAR1;27C;Noyer commun;-;
+ESPAR1;27N;Noyer noir;-;
+ESPAR1;28;Olivier d'Europe;-;
+ESPAR1;29MI;Mimosa;-;
+ESPAR1;29EN;Érable negundo;-;
+ESPAR1;29MA;Marronnier d'Inde;-;
+ESPAR1;29AI;Ailante;-;
+ESPAR1;29CT;Catalpa;-;
+ESPAR1;29CA;Caroubier;-;
+ESPAR1;29PL;Plaqueminier;-;
+ESPAR1;29FA;Frêne d'Amérique;-;
+ESPAR1;29PV;Pistachier vrai;-;
+ESPAR1;29CE;Chêne écarlate;-;
+ESPAR1;29CM;Chêne des marais;-;
+ESPAR1;29TA;Tilleul d'Amérique du Nord;-;
+ESPAR1;29TT;Tilleul argenté;-;
+ESPAR1;29LI;Liquidambar;-;
+ESPAR1;29FI;Filao;-;
+ESPAR1;29AF;Autre feuillu (espèce ligneuse feuillue sans code espar);-;
+ESPAR1;31;Noisetier coudrier;-;
+ESPAR1;32;Charme houblon;-;
+ESPAR1;33B;Peuplier blanc;-;
+ESPAR1;33G;Peuplier grisard;-;
+ESPAR1;33N;Peuplier noir;-;
+ESPAR1;34;Chêne chevelu;-;
+ESPAR1;36;Eucalyptus (genre);-;
+ESPAR1;37;Aulne vert;-;
+ESPAR1;38AU;Cytise aubour;-;
+ESPAR1;38AL;Cytise des alpes;-;
+ESPAR1;39;Cornouiller mâle;-;
+ESPAR1;40;Arbousier;-;
+ESPAR1;41;Alisier torminal;-;
+ESPAR1;42;Tulipier de Virginie;-;
+ESPAR1;51;Pin maritime;-;
+ESPAR1;52;Pin sylvestre;-;
+ESPAR1;53CO;Pin laricio de Corse;-;
+ESPAR1;53CA;Pin laricio de Calabre;-;
+ESPAR1;53S;Pin de Salzmann;-;
+ESPAR1;54;Pin noir d'Autriche;-;
+ESPAR1;55;Pin parasol;-;
+ESPAR1;56;Pin Weymouth;-;
+ESPAR1;57A;Pin d'Alep;-;
+ESPAR1;57B;Pin brutia (ou) eldarica;-;
+ESPAR1;58;Pin à crochets;-;
+ESPAR1;59;Pin cembro;-;
+ESPAR1;60;Pin mugo;-;
+ESPAR1;61;Sapin pectiné;-;
+ESPAR1;62;Épicéa commun;-;
+ESPAR1;63;Mélèze d'Europe;-;
+ESPAR1;64;Douglas;-;
+ESPAR1;65;Cèdre de l'Atlas;-;
+ESPAR1;66;Cyprès de Provence;-;
+ESPAR1;67;If;-;
+ESPAR1;68CM;Cyprès de Lambert;-;
+ESPAR1;68CB;Cèdre de Chypre;-;
+ESPAR1;68CH;Cèdre de l'Himalaya;-;
+ESPAR1;68PM;Pin de Monterey;-;
+ESPAR1;68CA;Cyprès de l'Arizona;-;
+ESPAR1;68EO;Épicéa omorika;-;
+ESPAR1;68TG;Thuya géant;-;
+ESPAR1;68CL;Cyprès de Lawson;-;
+ESPAR1;68SC;Sapin du Colorado;-;
+ESPAR1;68SI;Sapin de Cilicie;-;
+ESPAR1;68PC;Pin de Murray;-;
+ESPAR1;68SV;Séquoia toujours vert;-;
+ESPAR1;68SG;Séquoia géant;-;
+ESPAR1;68CC;Cyprès chauve;-;
+ESPAR1;68TH;Tsuga heterophylla;-;
+ESPAR1;68CJ;Cryptomère du Japon;-;
+ESPAR1;68CE;Autre résineux (espèce ligneuse résineuse sans code espar);-;
+ESPAR1;69;Genévrier thurifère;-;
+ESPAR1;70SE;Sapin d'Andalousie;-;
+ESPAR1;70SC;Sapin de Céphalonie;-;
+ESPAR1;70SB;Sapin de Turquie;-;
+ESPAR1;71;Sapin de Nordmann;-;
+ESPAR1;72V;Sapin de Vancouver;-;
+ESPAR1;72N;Sapin noble;-;
+ESPAR1;73;Épicéa de Sitka;-;
+ESPAR1;74J;Mélèze du Japon;-;
+ESPAR1;74H;Mélèze hybride;-;
+ESPAR1;76;Cèdre du Liban;-;
+ESPAR1;77;Pin à l'encens et hybrides;-;
+ESPAR1;20X;Tilleul de Hollande;-;
+ESPAR1;29PT;Paulownia;-;
+ESPAR1;29TX;Tilleul vert;-;
+ESPAR1;68TC;Thuya du Canada;-;
+ESPAR1;68TS;Tsuga du Canada;-;
+ESPAR1;49IA;Houx;-;
+ESPAR1;49MB;Mûrier blanc;-;
+ESPAR1;49MC;Mûrier de Chine;-;
+ESPAR1;49MN;Mûrier noir;-;
+ESPAR1;49OO;Oranger des Osages;-;
+ESPAR1;49VV;Vernis vrai;-;
+ESPAR1;23SF;Sorbier de Finlande;-;
+ESPAR1;23SS;Sorbier de Suède;-;
+ESPAR1;49AA;Aubépine azérolier;-;
+ESPAR1;49AE;Aubépine épineuse;-;
+ESPAR1;49AM;Aubépine monogyne;-;
+ESPAR1;49BO;Bourdaine;-;
+ESPAR1;49BS;Buis;-;
+ESPAR1;49C;Cognassier;-;
+ESPAR1;49CA;Oranger;-;
+ESPAR1;49CM;Cédratier;-;
+ESPAR1;49CN;Mandarinier;-;
+ESPAR1;49CS;Arbre de Judée;-;
+ESPAR1;49FL;Filaire à feuilles larges;-;
+ESPAR1;49KK;Kaki;-;
+ESPAR1;49LN;Laurier noble;-;
+ESPAR1;49OB;Olivier de Bohême;-;
+ESPAR1;49PA;Abricotier;-;
+ESPAR1;49PC;Prune-cerise;-;
+ESPAR1;49PM;Cerisier de Sainte Lucie;-;
+ESPAR1;49PN;Poirier neigeux;-;
+ESPAR1;49RT;Sumac de Virginie;-;
+ESPAR1;49SN;Sureau noir;-;
+ESPAR1;49TA;Tamaris de France;;
+ESPAR1;49TF;Tamaris d'Afrique;-;
+ESPAR1;49TG;Tamaris de France;-;
+ESPAR1;69JC;Genévrier commun;-;
+ESPAR1;69JO;Genévrier oxycèdre;-;
+ESPAR1;49EA;Bruyère arborescente;-;
+ESPAR1;49PS;Prunelier;-;
+ESPAR1;49RA;Nerprun alaterne;-;
+ESPAR1;49RP;Nerprun des Alpes;-;
+ESPAR1;49RC;Nerprun purgatif;-;
+ESPAR1;49EV;Fusain d'Europe;-;
+ESPAR1;49FA;Filaire à feuilles étroites;-;
+ESPAR1;49PB;Prunier de Briançon;-;
+ESPAR1;49PL;Pistachier lentisque;-;
+ESPAR1;49PT;Pistachier térébinthe;-;
+ESPAR1;49SR;Sureau rouge;-;

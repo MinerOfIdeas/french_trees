@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "french-trees"
+version = "0.1.0"
+description = "What is the species of tree planted by the department in France?"
+authors = ["Jesse FERREIRA <jesse@avidaemdados.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+matplotlib = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
